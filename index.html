@@ -38,7 +38,7 @@
     #vrh h1, #vrh p, #vrh div, #vrh span { color: #FFFFFF !important; }
     #vrh h1 { font-size: 30px !important; }
     #vrh p { font-size: 15px !important; }
-    #vrh [data-badge] { background: rgba(255,255,255,.16) !important; color: #FFFFFF !important; font-size: 11px !important; padding: 8px 14px !important; }
+    #vrh [data-badge] { background: rgba(64,139,209,.82) !important; color: #FFFFFF !important; font-size: 11px !important; padding: 8px 14px !important; }
     #vrh a[href^="tel"] { color: #FFFFFF !important; background: transparent !important; }
     header a[data-cta="nav"], [data-cta="sticky"] { width: auto !important; flex: 0 0 auto !important; }
     #vrh a { min-height: 48px !important; font-size: 15px !important; padding-left: 18px !important; padding-right: 18px !important; }
@@ -100,7 +100,7 @@
     <div style="position: relative; width: 100%; max-width: 1240px; margin: 0 auto; padding: 88px 32px 96px; color: #10151A">
       <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(360px, 100%), 1fr)); gap: 72px; align-items: center">
         <div data-anim="">
-      <div data-badge="" style="display: inline-flex; align-items: center; gap: 10px; font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: #408BD1; background: #EAF2FA; border-radius: 999px; padding: 9px 16px; margin-bottom: 26px">Dvodnevna edukacija uživo · Beograd · 31.10.2026.</div>
+      <div data-badge="" style="display: inline-flex; align-items: center; gap: 10px; font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: #FFFFFF; background: rgba(64,139,209,.82); border-radius: 999px; padding: 9px 16px; margin-bottom: 26px">Dvodnevna edukacija uživo · Beograd · 31.10.2026.</div>
       <h1 style="font-family: 'Inter Tight', sans-serif; font-weight: 700; font-size: clamp(40px, 5.4vw, 68px); line-height: 1.04; letter-spacing: -.035em; margin: 0 0 26px; max-width: 15ch; color: #10151A">Znaš tehnike. Nemaš sistem.</h1>
       <p style="font-size: 18px; line-height: 1.7; color: #4A535B; max-width: 50ch; margin: 0 0 36px">Za fizioterapeute, trenere i fizijatre koji svakodnevno viđaju bol u leđima — kompletan sistem od procene do povratka punom opterećenju. Odlaziš sa nečim što primenjuješ već od ponedeljka.</p>
       <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 14px" ref="{{ heroCtaRef }}">
@@ -242,6 +242,29 @@
     </div>
   </section>
 
+  <section id="galerija" style="background: #FFFFFF; padding: 88px 24px">
+    <div style="max-width: 1180px; margin: 0 auto">
+      <div style="display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 16px; padding-bottom: 32px">
+        <h2 style="font-family: 'Inter Tight', sans-serif; font-weight: 700; font-size: clamp(28px, 3.8vw, 44px); letter-spacing: -.025em; margin: 0">Galerija</h2>
+        <span style="font-size: 15px; color: #6B747C; max-width: 46ch">Lokal, oprema i tehnike koje se koriste u svakodnevnom radu i tokom praktičnog dela edukacije.</span>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 14px">
+        <div data-zoom=""><img src="assets/lokomoto-23.jpg" alt="Rack i slobodni tegovi" loading="lazy" decoding="async" width="700" height="875" style="display: block; width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px"></div>
+        <div data-zoom=""><img src="assets/lokomoto-28.jpg" alt="Kardio i mašine" loading="lazy" decoding="async" width="700" height="467" style="display: block; width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px"></div>
+        <div data-zoom=""><img src="assets/lokomoto-17.jpg" alt="Čekaonica" loading="lazy" decoding="async" width="700" height="875" style="display: block; width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px"></div>
+        <div data-zoom=""><img src="assets/lokomoto-60-c207c62e.jpg" alt="Manuelna terapija leđa" loading="lazy" decoding="async" width="800" height="1200" style="display: block; width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px"></div>
+        <div data-zoom=""><img src="assets/lokomoto-47.jpg" alt="INDIBA terapija butine" loading="lazy" decoding="async" width="700" height="875" style="display: block; width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px"></div>
+        <div data-zoom=""><img src="assets/lokomoto-57.jpg" alt="IASTM tehnika na leđima" loading="lazy" decoding="async" width="700" height="875" style="display: block; width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px"></div>
+        <div data-zoom=""><img src="assets/lokomoto-62.jpg" alt="IASTM tehnika na vratu" loading="lazy" decoding="async" width="700" height="875" style="display: block; width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px"></div>
+        <div data-zoom=""><img src="assets/lokomoto-66.jpg" alt="Priprema za trakciju" loading="lazy" decoding="async" width="700" height="1050" style="display: block; width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px"></div>
+        <div data-zoom=""><img src="assets/lokomoto-72.jpg" alt="Trakcija lumbalne kičme" loading="lazy" decoding="async" width="700" height="1050" style="display: block; width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px"></div>
+        <div data-zoom=""><img src="assets/lokomoto-77.jpg" alt="Postavljanje elektroda" loading="lazy" decoding="async" width="700" height="1050" style="display: block; width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px"></div>
+        <div data-zoom=""><img src="assets/lokomoto-30.jpg" alt="Ultrazvučni pregled kolena" loading="lazy" decoding="async" width="700" height="1050" style="display: block; width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px"></div>
+        <div data-zoom=""><img src="assets/lokomoto-13.jpg" alt="Set za kupiranje" loading="lazy" decoding="async" width="700" height="875" style="display: block; width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px"></div>
+      </div>
+    </div>
+  </section>
+
   <section id="program" style="background: #F5F7F4; padding: 88px 24px">
     <div style="max-width: 1180px; margin: 0 auto">
       <h2 style="font-family: 'Inter Tight', sans-serif; font-weight: 700; font-size: clamp(28px, 3.8vw, 44px); letter-spacing: -.025em; margin: 0 0 10px">Program</h2>
@@ -285,29 +308,6 @@
     </div>
   </section>
 
-  <section id="galerija" style="background: #FFFFFF; padding: 88px 24px">
-    <div style="max-width: 1180px; margin: 0 auto">
-      <div style="display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 16px; padding-bottom: 32px">
-        <h2 style="font-family: 'Inter Tight', sans-serif; font-weight: 700; font-size: clamp(28px, 3.8vw, 44px); letter-spacing: -.025em; margin: 0">Galerija</h2>
-        <span style="font-size: 15px; color: #6B747C; max-width: 46ch">Lokal, oprema i tehnike koje se koriste u svakodnevnom radu i tokom praktičnog dela edukacije.</span>
-      </div>
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 14px">
-        <div data-zoom=""><img src="assets/lokomoto-23.jpg" alt="Rack i slobodni tegovi" loading="lazy" decoding="async" width="700" height="875" style="display: block; width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px"></div>
-        <div data-zoom=""><img src="assets/lokomoto-28.jpg" alt="Kardio i mašine" loading="lazy" decoding="async" width="700" height="467" style="display: block; width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px"></div>
-        <div data-zoom=""><img src="assets/lokomoto-17.jpg" alt="Čekaonica" loading="lazy" decoding="async" width="700" height="875" style="display: block; width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px"></div>
-        <div data-zoom=""><img src="assets/lokomoto-60-c207c62e.jpg" alt="Manuelna terapija leđa" loading="lazy" decoding="async" width="800" height="1200" style="display: block; width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px"></div>
-        <div data-zoom=""><img src="assets/lokomoto-47.jpg" alt="INDIBA terapija butine" loading="lazy" decoding="async" width="700" height="875" style="display: block; width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px"></div>
-        <div data-zoom=""><img src="assets/lokomoto-57.jpg" alt="IASTM tehnika na leđima" loading="lazy" decoding="async" width="700" height="875" style="display: block; width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px"></div>
-        <div data-zoom=""><img src="assets/lokomoto-62.jpg" alt="IASTM tehnika na vratu" loading="lazy" decoding="async" width="700" height="875" style="display: block; width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px"></div>
-        <div data-zoom=""><img src="assets/lokomoto-66.jpg" alt="Priprema za trakciju" loading="lazy" decoding="async" width="700" height="1050" style="display: block; width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px"></div>
-        <div data-zoom=""><img src="assets/lokomoto-72.jpg" alt="Trakcija lumbalne kičme" loading="lazy" decoding="async" width="700" height="1050" style="display: block; width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px"></div>
-        <div data-zoom=""><img src="assets/lokomoto-77.jpg" alt="Postavljanje elektroda" loading="lazy" decoding="async" width="700" height="1050" style="display: block; width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px"></div>
-        <div data-zoom=""><img src="assets/lokomoto-30.jpg" alt="Ultrazvučni pregled kolena" loading="lazy" decoding="async" width="700" height="1050" style="display: block; width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px"></div>
-        <div data-zoom=""><img src="assets/lokomoto-13.jpg" alt="Set za kupiranje" loading="lazy" decoding="async" width="700" height="875" style="display: block; width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 4px"></div>
-      </div>
-    </div>
-  </section>
-
   <section id="rezultat" style="background: #FFFFFF; padding: 88px 24px">
     <div style="max-width: 1180px; margin: 0 auto">
       <div style="font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: #408BD1; padding-bottom: 14px">Posle dva dana</div>
@@ -318,26 +318,52 @@
       <div>
         <img src="assets/lokomoto-42.jpg" alt="Procena ramena na kolegi" loading="lazy" decoding="async" width="900" height="1125" style="display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; object-position: center 22%; border-radius: 4px">
       </div>
-      <div style="display: flex; flex-direction: column">
-        <div style="display: flex; gap: 16px; padding: 16px 0; border-bottom: 1px solid #EEF1EC"><span style="color: #408BD1; font-size: 18px; line-height: 1.5">✓</span><span style="font-size: 16px; line-height: 1.6; color: #232B32">Za nekoliko minuta prepoznaš da li pacijenta treba uputiti dalje ili možeš odmah da ga tretiraš.</span></div>
-        <div style="display: flex; gap: 16px; padding: 16px 0; border-bottom: 1px solid #EEF1EC"><span style="color: #408BD1; font-size: 18px; line-height: 1.5">✓</span><span style="font-size: 16px; line-height: 1.6; color: #232B32">Izvedeš i, važnije, protumačiš ključne testove za donja leđa.</span></div>
-        <div style="display: flex; gap: 16px; padding: 16px 0; border-bottom: 1px solid #EEF1EC"><span style="color: #408BD1; font-size: 18px; line-height: 1.5">✓</span><span style="font-size: 16px; line-height: 1.6; color: #232B32">Razlikuješ diskus herniju od fasetnog sindroma, stenoze i nespecifičnog bola.</span></div>
-        <div style="display: flex; gap: 16px; padding: 16px 0; border-bottom: 1px solid #EEF1EC"><span style="color: #408BD1; font-size: 18px; line-height: 1.5">✓</span><span style="font-size: 16px; line-height: 1.6; color: #232B32">Proceniš kada je snimak zaista potreban, a kada je nepotreban trošak i izvor straha.</span></div>
-        <div style="display: flex; gap: 16px; padding: 16px 0; border-bottom: 1px solid #EEF1EC"><span style="color: #408BD1; font-size: 18px; line-height: 1.5">✓</span><span style="font-size: 16px; line-height: 1.6; color: #232B32">Složiš plan sa jasnom progresijom, od prve vežbe do punog opterećenja.</span></div>
-        <div style="display: flex; gap: 16px; padding: 16px 0; border-bottom: 1px solid #EEF1EC"><span style="color: #408BD1; font-size: 18px; line-height: 1.5">✓</span><span style="font-size: 16px; line-height: 1.6; color: #232B32">Znaš tačno kada da promeniš fazu — na osnovu merljivih kriterijuma.</span></div>
-        <div style="display: flex; gap: 16px; padding: 16px 0"><span style="color: #408BD1; font-size: 18px; line-height: 1.5">✓</span><span style="font-size: 16px; line-height: 1.6; color: #232B32">Primeniš sve to na realnog pacijenta, kroz slučajeve koje radiš na kursu.</span></div>
-
-        <div style="margin-top: 26px; border-top: 1px solid #E4E7E1; padding-top: 12px">
-          <h3 style="font-family: 'Inter Tight', sans-serif; font-weight: 600; font-size: 18px; margin: 0 0 14px">Materijali koje nosiš sa sobom</h3>
-          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 10px 24px; font-size: 15px; line-height: 1.55; color: #4A535B">
-            <div>Sistem procene sa baterijom testova i standardima</div>
-            <div>Gotov obrazac za testiranje pacijenta</div>
-            <div>Tabele diferencijalne dijagnoze za leđa i kuk</div>
-            <div>Kriterijumi za prelazak iz faze u fazu</div>
-            <div>Kompletna skripta i handout materijali</div>
-            <div>Pristup grupi polaznika posle kursa</div>
+      <div style="display: flex; flex-direction: column; gap: 18px">
+        <div style="display: flex; flex-direction: column; gap: 14px; padding: 24px 26px; border: 1px solid #E4E7E1; border-radius: 6px; background: #FBFCFA">
+          <div style="display: flex; align-items: baseline; gap: 12px">
+            <span style="font-family: 'Inter Tight', sans-serif; font-weight: 600; font-size: 12px; color: #408BD1">01</span>
+            <span style="font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: #8B939A">Procena</span>
           </div>
+          <ul style="list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px">
+          <li style="display: flex; gap: 14px; align-items: baseline; margin: 0"><span style="flex: 0 0 auto; color: #408BD1; font-size: 15px; line-height: 1.6">✓</span><span style="font-size: 16px; line-height: 1.6; color: #232B32">Za nekoliko minuta prepoznaš da li pacijenta treba uputiti dalje ili možeš odmah da ga tretiraš.</span></li>
+          <li style="display: flex; gap: 14px; align-items: baseline; margin: 0"><span style="flex: 0 0 auto; color: #408BD1; font-size: 15px; line-height: 1.6">✓</span><span style="font-size: 16px; line-height: 1.6; color: #232B32">Izvedeš i, važnije, protumačiš ključne testove za donja leđa.</span></li>
+          </ul>
         </div>
+        <div style="display: flex; flex-direction: column; gap: 14px; padding: 24px 26px; border: 1px solid #E4E7E1; border-radius: 6px; background: #FBFCFA">
+          <div style="display: flex; align-items: baseline; gap: 12px">
+            <span style="font-family: 'Inter Tight', sans-serif; font-weight: 600; font-size: 12px; color: #408BD1">02</span>
+            <span style="font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: #8B939A">Diferencijalna dijagnoza</span>
+          </div>
+          <ul style="list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px">
+          <li style="display: flex; gap: 14px; align-items: baseline; margin: 0"><span style="flex: 0 0 auto; color: #408BD1; font-size: 15px; line-height: 1.6">✓</span><span style="font-size: 16px; line-height: 1.6; color: #232B32">Razlikuješ diskus herniju od fasetnog sindroma, stenoze i nespecifičnog bola.</span></li>
+          <li style="display: flex; gap: 14px; align-items: baseline; margin: 0"><span style="flex: 0 0 auto; color: #408BD1; font-size: 15px; line-height: 1.6">✓</span><span style="font-size: 16px; line-height: 1.6; color: #232B32">Proceniš kada je snimak zaista potreban, a kada je nepotreban trošak i izvor straha.</span></li>
+          </ul>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 14px; padding: 24px 26px; border: 1px solid #E4E7E1; border-radius: 6px; background: #FBFCFA">
+          <div style="display: flex; align-items: baseline; gap: 12px">
+            <span style="font-family: 'Inter Tight', sans-serif; font-weight: 600; font-size: 12px; color: #408BD1">03</span>
+            <span style="font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: #8B939A">Plan i primena</span>
+          </div>
+          <ul style="list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px">
+          <li style="display: flex; gap: 14px; align-items: baseline; margin: 0"><span style="flex: 0 0 auto; color: #408BD1; font-size: 15px; line-height: 1.6">✓</span><span style="font-size: 16px; line-height: 1.6; color: #232B32">Složiš plan sa jasnom progresijom, od prve vežbe do punog opterećenja.</span></li>
+          <li style="display: flex; gap: 14px; align-items: baseline; margin: 0"><span style="flex: 0 0 auto; color: #408BD1; font-size: 15px; line-height: 1.6">✓</span><span style="font-size: 16px; line-height: 1.6; color: #232B32">Znaš tačno kada da promeniš fazu — na osnovu merljivih kriterijuma.</span></li>
+          <li style="display: flex; gap: 14px; align-items: baseline; margin: 0"><span style="flex: 0 0 auto; color: #408BD1; font-size: 15px; line-height: 1.6">✓</span><span style="font-size: 16px; line-height: 1.6; color: #232B32">Primeniš sve to na realnog pacijenta, kroz slučajeve koje radiš na kursu.</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div style="max-width: 1180px; margin: 56px auto 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr)); gap: 40px; align-items: start">
+      <div>
+        <div style="font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: #408BD1; padding-bottom: 12px">Uz kurs</div>
+        <h3 style="font-family: 'Inter Tight', sans-serif; font-weight: 700; font-size: clamp(24px, 2.6vw, 32px); line-height: 1.12; letter-spacing: -.02em; margin: 0; max-width: 14ch">Materijali koje nosiš sa sobom</h3>
+      </div>
+      <div style="grid-column: span 2; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: 0 44px">
+        <div style="display: flex; gap: 16px; align-items: baseline; padding: 15px 0; border-top: 1px solid #E4E7E1"><span style="flex: 0 0 auto; font-family: 'Inter Tight', sans-serif; font-weight: 600; font-size: 12px; color: #9AA2A9; font-variant-numeric: tabular-nums">01</span><span style="font-size: 16px; line-height: 1.5; color: #232B32">Sistem procene sa baterijom testova i standardima</span></div>
+        <div style="display: flex; gap: 16px; align-items: baseline; padding: 15px 0; border-top: 1px solid #E4E7E1"><span style="flex: 0 0 auto; font-family: 'Inter Tight', sans-serif; font-weight: 600; font-size: 12px; color: #9AA2A9; font-variant-numeric: tabular-nums">02</span><span style="font-size: 16px; line-height: 1.5; color: #232B32">Gotov obrazac za testiranje pacijenta</span></div>
+        <div style="display: flex; gap: 16px; align-items: baseline; padding: 15px 0; border-top: 1px solid #E4E7E1"><span style="flex: 0 0 auto; font-family: 'Inter Tight', sans-serif; font-weight: 600; font-size: 12px; color: #9AA2A9; font-variant-numeric: tabular-nums">03</span><span style="font-size: 16px; line-height: 1.5; color: #232B32">Tabele diferencijalne dijagnoze za leđa i kuk</span></div>
+        <div style="display: flex; gap: 16px; align-items: baseline; padding: 15px 0; border-top: 1px solid #E4E7E1"><span style="flex: 0 0 auto; font-family: 'Inter Tight', sans-serif; font-weight: 600; font-size: 12px; color: #9AA2A9; font-variant-numeric: tabular-nums">04</span><span style="font-size: 16px; line-height: 1.5; color: #232B32">Kriterijumi za prelazak iz faze u fazu</span></div>
+        <div style="display: flex; gap: 16px; align-items: baseline; padding: 15px 0; border-top: 1px solid #E4E7E1"><span style="flex: 0 0 auto; font-family: 'Inter Tight', sans-serif; font-weight: 600; font-size: 12px; color: #9AA2A9; font-variant-numeric: tabular-nums">05</span><span style="font-size: 16px; line-height: 1.5; color: #232B32">Kompletna skripta i handout materijali</span></div>
+        <div style="display: flex; gap: 16px; align-items: baseline; padding: 15px 0; border-top: 1px solid #E4E7E1"><span style="flex: 0 0 auto; font-family: 'Inter Tight', sans-serif; font-weight: 600; font-size: 12px; color: #9AA2A9; font-variant-numeric: tabular-nums">06</span><span style="font-size: 16px; line-height: 1.5; color: #232B32">Pristup grupi polaznika posle kursa</span></div>
       </div>
     </div>
   </section>
@@ -351,7 +377,11 @@
           <h2 style="font-family: 'Inter Tight', sans-serif; font-weight: 700; font-size: clamp(28px, 3.6vw, 42px); letter-spacing: -.025em; margin: 0 0 18px">Novak</h2>
           <p style="font-size: 17px; line-height: 1.65; color: #414B54; max-width: 52ch; margin: 0 0 14px">Fizioterapeut sa preko 15 godina prakse. Vlasnik i osnivač Lokomoto Centra u Beogradu, klinike specijalizovane za fizikalnu rehabilitaciju.</p>
           <p style="font-size: 17px; line-height: 1.65; color: #414B54; max-width: 52ch; margin: 0">Svakodnevno radi sa pacijentima sa bolom u leđima — od akutne faze do povratka u teretanu. Sistem koji predaje je isti onaj po kome radi u ordinaciji.</p>
-          <p style="font-size: 12px; color: #A3AAB0; margin: 20px 0 0; letter-spacing: .04em">TODO: potvrdi portret predavača i imena članova tima</p>
+          <div style="margin-top: 32px; padding-top: 24px; border-top: 1px solid #E4E7E1; display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 24px; max-width: 560px">
+            <div><div style="font-family: 'Inter Tight', sans-serif; font-weight: 700; font-size: clamp(28px, 3vw, 38px); line-height: 1; letter-spacing: -.03em; color: #408BD1">15+</div><div style="font-size: 14px; line-height: 1.45; color: #6B747C; padding-top: 8px">godina prakse</div></div>
+            <div><div style="font-family: 'Inter Tight', sans-serif; font-weight: 700; font-size: clamp(28px, 3vw, 38px); line-height: 1; letter-spacing: -.03em; color: #408BD1">1000+</div><div style="font-size: 14px; line-height: 1.45; color: #6B747C; padding-top: 8px">pacijenata sa bolom u leđima</div></div>
+            <div><div style="font-family: 'Inter Tight', sans-serif; font-weight: 700; font-size: clamp(28px, 3vw, 38px); line-height: 1; letter-spacing: -.03em; color: #408BD1">1</div><div style="font-size: 14px; line-height: 1.45; color: #6B747C; padding-top: 8px">sistem koji koristi svakog dana</div></div>
+          </div>
         </div>
       </div>
       <div style="margin-top: 44px; border-top: 1px solid #DFE4DC; padding-top: 28px">
